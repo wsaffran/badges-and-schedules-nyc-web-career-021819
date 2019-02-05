@@ -21,7 +21,6 @@ def printer(attendees)
   attendees.length.times do
     puts list[0]
     i++
-  end
 end
 
 
