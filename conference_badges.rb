@@ -4,10 +4,7 @@ end
 
 def batch_badge_creator(attendees)
   array_of_badge_messages = []
-  i = 0
-  attendees.length.times do
-    array_of_badge_messages.push(badge_maker(attendees[i]))
-    i++
-  array_of_badge_messages
+  
+  
 end
   
