@@ -3,8 +3,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  list = []
-  attendees.each { |x| list << badge_maker(x)}
-  list
+  list_of_badge_messages = []
+  attendees.each { |x| list_of_badge_messages << badge_maker(x)}
+  list_of_badge_messages
 end
   
