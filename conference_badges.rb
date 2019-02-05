@@ -10,6 +10,6 @@ end
 
 def assign_rooms(attendees)
   list_of_badge_messages_and_room_assignments = []
-  attendees.each { |x| list_of_badge_messages_and_room_assignments << "Hello, #{x}! You'll be assigned to room #{attendees.index(x)}!"}
+  attendees.each { |x| list_of_badge_messages_and_room_assignments << "Hello, #{x}! You'll be assigned to room #{attendees.index(x)+1}!"}
   list_of_badge_messages_and_room_assignments
 end
