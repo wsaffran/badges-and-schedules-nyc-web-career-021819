@@ -5,6 +5,6 @@ end
 def batch_badge_creator(attendees)
   list = []
   attendees.each { |x| list << badge_maker(x)}
-  
+  list
 end
   
