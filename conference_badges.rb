@@ -17,7 +17,11 @@ end
 def printer(attendees)
   puts batch_badge_creator
   list = assign_rooms(attendees)
-  attendees.each { |x| puts ssign_roomsa
+  i = 0
+  attendees.length.times do
+    puts list[0]
+    i++
+  end
 end
 
 
