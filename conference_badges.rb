@@ -8,7 +8,6 @@ def batch_badge_creator(attendees)
   attendees.length.times do
     array_of_badge_messages.push(badge_maker(attendees[i]))
     i++
-  end
   array_of_badge_messages
 end
   
