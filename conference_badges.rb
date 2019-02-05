@@ -13,3 +13,18 @@ def assign_rooms(attendees)
   attendees.each { |x| list << "Hello, #{x}! You'll be assigned to room #{attendees.index(x)+1}!"}
   list
 end
+
+def printer(attendees)
+  puts assign_rooms(attendees)
+end
+
+
+
+
+
+
+
+
+
+
+
